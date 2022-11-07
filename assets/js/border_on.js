@@ -5,7 +5,7 @@ imageToSelect.addEventListener("click", ()=>{
     console.log("me diste click")
     
 
-    if (imageToSelect.style.borderStyle!="none") {
+    if (imageToSelect.style.borderStyle === "solid" ){
         imageToSelect.style.border="none";
         imageToSelect.style.borderRadius="0px";
         imageToSelect.style.boxShadow="none";
