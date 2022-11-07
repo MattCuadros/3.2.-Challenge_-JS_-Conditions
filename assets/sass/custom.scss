@@ -1,25 +1,13 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-
 // scss-docs-start theme-color-variables
-$primary:       #ff006e ;
-$secondary:     #3a86ff ;
-$success:       $green ;
-$info:          #8338ec ;
-$warning:       #ffbe0b ;
-$danger:        #fb5607;
-$light:         $gray-100 ;
-$dark:          $gray-900 ;
+$primary:       #ff006e  !default;
+$secondary:    #3a86ff  !default;
+$info:           #8338ec  !default;
+$warning:       #ffbe0b!default;
+$danger:        #fb5607 !default;
 // scss-docs-end theme-color-variables
 
-// scss-docs-start theme-colors-map
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) ;
-// scss-docs-end theme-colors-map
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
