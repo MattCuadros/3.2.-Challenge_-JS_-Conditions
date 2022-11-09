@@ -10771,5 +10771,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+article img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
 
 /*# sourceMappingURL=custom.css.map */
