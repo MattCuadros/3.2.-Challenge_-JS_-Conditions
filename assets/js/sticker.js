@@ -16,7 +16,7 @@ btnVerify.addEventListener("click", ()=>{
     let sticker3=+stickerHulk.value;
     let sumaStickers=sticker1+sticker2+sticker3;
 
-    if (sticker1 === NaN || sticker2 === NaN || sticker3 === NaN || sticker1 <0 || sticker2<0 || sticker3<0){
+    if (isNaN(sticker1) || isNaN(sticker2) || isNaN(sticker3) || sticker1 <0 || sticker2<0 || sticker3<0){
         alert("Debe ingresar sólo números positivos");
         return;
     }
