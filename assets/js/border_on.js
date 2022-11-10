@@ -1,4 +1,7 @@
 const imageToSelect=document.querySelector("#imageToSelect");
+const linkToNext=document.querySelector("#linkToNext");
+
+linkToNext.style.visibility="hidden";
 
 imageToSelect.addEventListener("click", ()=>{
 
@@ -18,5 +21,5 @@ imageToSelect.addEventListener("click", ()=>{
         imageToSelect.style.borderRadius="1rem";
         imageToSelect.style.boxShadow="5px 5px 3px black";
     }
-
+    linkToNext.style.visibility="visible";
 })

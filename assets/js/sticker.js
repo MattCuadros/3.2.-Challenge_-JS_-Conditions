@@ -3,10 +3,13 @@ const stickerCap=document.querySelector("#stickerCap");
 const stickerHulk=document.querySelector("#stickerHulk");
 const pMessage=document.querySelector("#pMessage");
 const btnVerify=document.querySelector("#btnVerify");
+const linkToNext=document.querySelector("#linkToNext");
+
+linkToNext.style.visibility="hidden";
 
 btnVerify.addEventListener("click", ()=>{
     
-
+    linkToNext.style.visibility="visible";
     console.log("me diste click");
     let sticker1=+stickerThor.value;
     let sticker2=+stickerCap.value;
@@ -25,6 +28,5 @@ btnVerify.addEventListener("click", ()=>{
 
     pMessage.innerHTML=`Llevas demasiados Stickers. El máximo es <strong>10</strong> unidades <br><i class="fa-solid fa-circle-xmark"></i>`;
     return;
-
 
 })

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Fira+Sans+Condensed:wght@600&family=Libre+Franklin:wght@300&display=swap');
+
 // scss-docs-start theme-color-variables
 $primary:       #ff006e  !default;
 $secondary:    #3a86ff  !default;
@@ -15,5 +17,15 @@ article img{
     object-fit: contain;
 }
 
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p{
+    font-family: 'Libre Franklin', sans-serif;
+}
 
 
